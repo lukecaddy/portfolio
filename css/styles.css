@@ -1,0 +1,283 @@
+* {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 100;
+    padding: 0;
+    margin: 0;
+    color: #424242;
+  
+}
+
+/*Navigation and Hamburger Menu*/
+
+.nav-div {
+    border-bottom: 1px solid black;
+}
+
+.logo-img {
+    height: 7.5vh;
+    padding-top: 8%;
+    
+}
+
+.color-text {
+    color: #FE6A5B;
+    font-weight: 500;
+    text-decoration-color: #34495e;
+}
+
+#about {
+    padding-top: 60px;
+    margin-top: -60px;
+}
+
+/*Hero Header Image*/
+
+.hero {
+    /* Sizing */
+    width: 100vw;
+    height: 91.5vh;
+    
+    /* Flexbox stuff */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    /* Text styles */
+    text-align: center;
+    color: white;
+    
+    background-image: linear-gradient(rgba(66, 66, 66, 0.5),rgba(66, 66, 66, 0.5)), url('/images/header-resized.png');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.hero h1 {
+    /* Text styles */
+    font-size: 3.5em;
+    font-weight: 700;
+    padding-bottom: 2%;
+    color: #ecf0f1;
+    
+    /* Margins */
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.hero h2 {
+    font-size: 1.3em;
+    font-weight: 300;
+    font-family: "Raleway", sans-serif;
+    color: #ecf0f1;
+    text-align: center;
+    
+}
+
+.button {
+    background-color: transparent;
+    border: 2px solid #FE6A5B;
+    color: #ecf0f1;
+    padding: 12px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1em;
+    font-weight: 400;
+    cursor: pointer;
+    border-radius: 25px;
+    margin-top: 45%;
+    -moz-transition: all .4s ease-in;
+    -o-transition: all .4s ease-in;
+    -webkit-transition: all .4s ease-in;
+    transition: all .4s ease-in;
+
+}
+
+.button:hover {
+    background-color: #FE6A5B;
+    padding: 12px 44px;
+}
+
+/*Hero Image 2*/
+
+.hero-2 {
+    /* Sizing */
+    width: 100vw;
+    height: 91.5vh;
+    
+    /* Flexbox stuff */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    /* Text styles */
+    text-align: left;
+    color: white;
+    
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url('/images/hero-2.jpg');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.hero-2 h1 {
+    /* Text styles */
+    font-size: 3.5em;
+    font-weight: 700;
+    padding-bottom: 2%;
+    color: #ecf0f1;
+    
+    /* Margins */
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.hero-2 h2 {
+    font-size: 1.3em;
+    font-weight: 300;
+    font-family: "Raleway", sans-serif;
+    color: #ecf0f1;
+    
+}
+
+
+/* About */
+
+.abilities-container {
+    border: 1px solid #424242;
+}
+
+.group-header {
+    font-size: 3.5em;
+    font-weight: 700;
+    text-align: center;
+    padding-top: 1%;
+
+}
+
+.group-paragraph {
+    font-size: 1.3em;
+    text-align: center;
+    padding-bottom: 5%;
+}
+
+.fas {
+    font-size: 8em;
+    -moz-transition: all .2s ease-in;
+    -o-transition: all .2s ease-in;
+    -webkit-transition: all .2s ease-in;
+    transition: all .2s ease-in;
+}
+
+.fas:hover {
+    color: #056472;
+    
+}
+
+.html-icon {
+    text-align: center;
+    font-weight: 100;
+}
+
+.css-icon {
+    text-align: center;
+}
+
+.abilities-header {
+    padding-top: 2%;
+    font-size: 2em;
+    font-weight: 700;
+}
+
+.abilities-paragraph {
+    padding: 5%;
+    padding-bottom: 10%;
+    font-size: 1.2em;
+}
+
+.work-button-div {
+    text-align: center;
+    margin-bottom: 10%;
+}
+
+.work-button {
+    background-color: transparent;
+    border: 2px solid #FE6A5B;
+    color: #424242;
+    padding: 12px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1em;
+    font-weight: 400;
+    cursor: pointer;
+    border-radius: 25px;
+    -moz-transition: all .4s ease-in;
+    -o-transition: all .4s ease-in;
+    -webkit-transition: all .4s ease-in;
+    transition: all .4s ease-in;
+
+}
+
+.work-button:hover {
+    background-color: #FE6A5B;
+    color: white;
+    padding: 12px 44px;
+}
+
+
+/* My Work */
+
+.work-container {
+    background-color: lightgray;
+}
+/*Icons*/
+
+/*
+.fab {
+    font-size: 5em;
+    padding-right: 5%;
+}
+
+.icons-container {
+    text-align: center;
+}
+*/
+
+
+/* Footer */
+
+.footer-container {
+    text-align: center;
+    padding: 1%;
+    font-size: .8em;
+}
+
+
+/* Media Queries */
+
+@media screen and (max-width: 400px) {
+    .hero h1 {
+        font-size: 1.75em;
+    }
+    
+    .hero h2 {
+        font-size: .75em;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .hero h1 {
+        font-size: 1.8em;
+        padding: 5% 5% 2% 5%;
+    }
+    
+    .hero h2 {
+        font-size: 1em;
+        padding: 0 5% 5% 5%;
+    }
+    
+}
+
