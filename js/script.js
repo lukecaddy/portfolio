@@ -16,3 +16,5 @@ $('a[href^="#"]').on('click', function(event) {
         }, 1100);
     }
 });
+
+// Modal

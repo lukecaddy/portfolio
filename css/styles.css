@@ -25,11 +25,6 @@
     text-decoration-color: #34495e;
 }
 
-#about {
-    padding-top: 60px;
-    margin-top: -60px;
-}
-
 /*Hero Header Image*/
 
 .hero {
@@ -172,16 +167,15 @@
 }
 
 .fas:hover {
-    color: #056472;
-    
+    color: #056472; 
 }
 
-.html-icon {
+.code-icon {
     text-align: center;
     font-weight: 100;
 }
 
-.css-icon {
+.design-icon {
     text-align: center;
 }
 
@@ -231,11 +225,101 @@
 /* My Work */
 
 .work-container {
-    background-color: lightgray;
+    background-color: #424242;
 }
+
+.work-header-one {
+    color: white;
+}
+
+.work-header {
+    padding-left: 10%;
+    color: white;
+}
+
+.work-paragraph {
+    padding-left: 10%;
+    color: white;
+}
+
+.work-img {
+    width: 70%;
+    height: auto;
+    padding-left: 10%;
+    padding-top: 10%;
+}
+
+
+.work-section-button {
+    background-color: transparent;
+    border: 2px solid #FE6A5B;
+    color: white;
+    padding: 12px 32px;
+    margin-left: 10%;
+    margin-top: 5%;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1em;
+    font-weight: 400;
+    cursor: pointer;
+    border-radius: 25px;
+    -moz-transition: all .4s ease-in;
+    -o-transition: all .4s ease-in;
+    -webkit-transition: all .4s ease-in;
+    transition: all .4s ease-in;  
+}
+
+.work-section-button:hover {
+    background-color: #FE6A5B;
+    color: white;
+    padding: 12px 44px;
+}
+
+/*Contact*/
+
+.email-container {
+    text-align: center;
+}
+
+.email-button {
+    background-color: transparent;
+    border: 2px solid #FE6A5B;
+    color: #424242;
+    padding: 12px 32px;
+    margin-top: 5%;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1em;
+    font-weight: 400;
+    cursor: pointer;
+    border-radius: 25px;
+    -moz-transition: all .4s ease-in;
+    -o-transition: all .4s ease-in;
+    -webkit-transition: all .4s ease-in;
+    transition: all .4s ease-in;  
+}
+
+.email-button:hover {
+    background-color: #FE6A5B;
+    color: white;
+    padding: 12px 44px;
+}
+
+.email-paragraph {
+    padding-bottom: 2%;
+}
+
+.email-link {
+    
+}
+
+
+
 /*Icons*/
 
-/*
+
 .fab {
     font-size: 5em;
     padding-right: 5%;
@@ -243,18 +327,45 @@
 
 .icons-container {
     text-align: center;
+    background-color: #FE6A5B;
+    padding: 2% 0;
+    margin-top: 7%;
 }
-*/
+
+.fab {
+    font-size: 2em;
+    -moz-transition: all .2s ease-in;
+    -o-transition: all .2s ease-in;
+    -webkit-transition: all .2s ease-in;
+    transition: all .2s ease-in;
+}
+
+.fab:hover {
+    color: #056472; 
+}
+
+
 
 
 /* Footer */
 
+#btn-close-modal {
+                width:100%;
+                text-align: center;
+                cursor:pointer;
+                color:#fff;
+            }
+
 .footer-container {
     text-align: center;
-    padding: 1%;
+    padding: 1% 0;
     font-size: .8em;
+    background-color: #424242;
 }
 
+.footer-paragraph {
+    color: white;
+}
 
 /* Media Queries */
 
