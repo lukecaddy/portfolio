@@ -247,6 +247,7 @@
     height: auto;
     padding-left: 10%;
     padding-top: 10%;
+    padding-bottom: 10%;
 }
 
 
@@ -274,6 +275,10 @@
     background-color: #FE6A5B;
     color: white;
     padding: 12px 44px;
+}
+
+.group-container {
+    border-bottom: 1px solid white;
 }
 
 /*Contact*/
@@ -388,6 +393,14 @@
     .hero h2 {
         font-size: 1em;
         padding: 0 5% 5% 5%;
+    }
+    
+    .work-paragraph {
+        padding-right: 10%;
+    }
+    
+    .work-img {
+        padding-left: 15%;
     }
     
 }
