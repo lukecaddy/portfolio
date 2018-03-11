@@ -111,7 +111,7 @@
     padding-bottom: 5%;
 }
 
-.fas {
+.about-icon {
     font-size: 8em;
     -moz-transition: all .2s ease-in;
     -o-transition: all .2s ease-in;
@@ -119,7 +119,7 @@
     transition: all .2s ease-in;
 }
 
-.fas:hover {
+.about-icon:hover {
     color: #6B7C8F; 
 }
 
@@ -175,6 +175,68 @@
 
 
 /* My Work */
+
+/*Hero Image - Work Section*/
+
+.hero-work {
+    width: 100vw;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    background-color: white;
+}
+
+.hero-work h1 {
+    /* Text styles */
+    font-size: 2.5em;
+    font-weight: 700;
+    padding-bottom: 2%;
+    padding-left: 3%;
+    color: #4C4C4C;
+    text-align: center;
+    
+    /* Margins */
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.hero-work p {
+    padding: 0 20%;
+}
+
+.button-hero-work {
+    background-color: transparent;
+    border: 2px solid #F7892F;
+    color: #4C4C4C;
+    padding: 12px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1em;
+    font-weight: 400;
+    cursor: pointer;
+    border-radius: 25px;
+    margin-top: 5%;
+    -moz-transition: all .4s ease-in;
+    -o-transition: all .4s ease-in;
+    -webkit-transition: all .4s ease-in;
+    transition: all .4s ease-in;
+
+}
+
+.button-hero-work:hover {
+    background-color: #F7892F;
+    padding: 12px 44px;
+}
+
+.arrow-icon {
+    font-size: 1em;
+    color: #4C4C4C;
+}
+
 
 .work-container {
     background-color: #D7D7D7;
