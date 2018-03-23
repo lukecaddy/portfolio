@@ -41,7 +41,7 @@
     text-align: center;
     color: white;
     
-    background-image: linear-gradient(rgba(66, 66, 66, 0.2),rgba(66, 66, 66, 0.2)), url('/images/header-resized.png');
+    background-image: linear-gradient(rgba(66, 66, 66, 0.7),rgba(66, 66, 66, 0.7)), url('/images/background.jpg');
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
@@ -251,11 +251,8 @@
 }
 
 .work-img {
-    width: 70%;
+    width: 100%;
     height: auto;
-    padding-left: 10%;
-    padding-top: 10%;
-    padding-bottom: 10%;
 }
 
 
@@ -368,9 +365,6 @@ group-container-no-underline {
         font-size: .75em;
     }
     
-    .header-text {
-        text
-    }
 }
 
 @media screen and (max-width: 800px) {
@@ -388,9 +382,6 @@ group-container-no-underline {
         padding-right: 10%;
     }
     
-    .work-img {
-        padding-left: 15%;
-    }
     
 }
 
